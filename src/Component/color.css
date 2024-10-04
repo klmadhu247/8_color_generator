@@ -1,0 +1,36 @@
+button{
+   
+    margin: auto;
+    align-items: center;
+    color: white;
+    background-color: #006eff;
+   border: none;
+    padding: 10px;
+    transition: transform 0.3s ease; 
+   
+}
+
+button:hover{
+    background-color: blue;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+
+}
+
+.circle_Color{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+}
+span{
+    cursor: pointer;
+}
+.Delete{
+    color: red;
+    cursor: pointer;
+}
+.Delete:hover{
+    text-decoration: underline;
+}
